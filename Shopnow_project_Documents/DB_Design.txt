@@ -1,0 +1,47 @@
+DB Design for Cart and Orders :
+
+Table : CartItems 
+			CartItemId (id), PK
+			CartId,
+			UserId(customer_id)FK,
+			CreatedDate,
+			CheckedOut (Binary, Default 0)
+			ProductId FK,
+			VendorId,
+			Quantity,
+			Price
+			
+Table : Customer_Orders
+			order_id PK,
+			customer_id FK,
+			customer_payment_id FK,
+			order_status_code,
+			date_of_placed_order,
+			total_order_price,
+			date_of_order_paid,
+			coupon_used_details,
+			delivery_address
+			
+Table : Customer_payment_methods
+			payment_method_id PK,
+			customer_id FK,
+			payment_method_code,(or nick name/ VISA, MASTERCARD, etc)
+			card_number,
+			expiry_month,
+			expiry_year
+			
+Table : Order_Delivery/Order_Details
+			order_id FK,
+			expected_date_of_delivery,
+			delivery_status_code FK
+			delivery_address,
+			productId,
+			VendorId,
+			Quantity,
+			Price,
+			mode_of_payment,
+			transaction_id,
+			authorization_id,
+			grand_total,
+			discounts,
+			delivery_charges

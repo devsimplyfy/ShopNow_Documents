@@ -1,0 +1,41 @@
+Cart/Display web-Service
+input { "userId" :"113"}
+
+output
+--------------------------------
+{
+  "Products": [
+    {
+      "Regular_price": 3299,
+      "offer": "Extra 50% off :with Net Banking",
+      "image": "https://rukminim1.flixcart.com/image/800/800/abaya-burqa/x/w/x/wb00034-hawai-m-original-imae3ffwkx3gyndw.jpeg?q=90",
+      "quantity": "15",
+      "product_attribute": [
+        "size\":\"5 - 6 Years"
+      ],
+      "name": "Hawai WB00034 Leon Self Design Burqa With Hijab(Black)",
+      "description": "This black colored burka with stone embellishment and golden faux leather material is brought to you by Hawai. Leon fabric. Full length. Full sleeves. Collared neck. Button enclosure. Niqab along. Burka is an essential part of islamic clothing. Muslim women wear it while moving out of their house. Burka essentially depicts their belief and values. This burkas come along with the niqabs and are kept very loose. It is simple, yet they are designed in an apt manner and are made of good quality fabric that speaks a lot of your style. This burka is designed with a collared neck that is made up with leon fabric along with faux leather material in golden color. Stone studded patches have been placed for detailing. Beautifully stitched, a line of white stones run through the burka till length. It has got button closure. Very elegant burka, worth buying! [TYPE: Burqa,Color: Black,Size: M Regular,Fabric: Leon,WITH Hijab]",
+      "total1": 22485,
+      "Sale_price": 1499
+    },
+    {
+      "Regular_price": 5999,
+      "offer": "",
+      "image": "https://rukminim1.flixcart.com/image/800/800/abaya-burqa/m/h/s/wb00067-hawai-m-original-imaeagmzhhsjrz2a.jpeg?q=90",
+      "quantity": "15",
+      "product_attribute": [],
+      "name": "Hawai WB00067 Lycra Self Design Burqa With Hijab(Black)",
+      "description": "Cover up yourself in a graceful manner with this simple black burka with patches of embroidery by Hawai. In a unique design with alluring embroidery on the niqab and sleeves. A white stone and sequin lace runs through along the buttoned area till the length. This burka lets you follow the religious customs, not compromising with the style quotient. This burka is light and simple yet so elegant with its minimum embroidery. [Type: Burqa,Color: Black,Size: M Regular,Fabric: Lycra,With Hijab]",
+      "total1": 37485,
+      "Sale_price": 2499
+    }
+  ],
+  "total": 59970,
+  "cartid": "1",
+  "curancy": "INR",
+  "tax": "0",
+  "Delivery": "FREE",             //if total > 1000     
+  "Delivery To": "hhh"           //Addreess from address Table according user Cart
+}
+
+
